@@ -61,21 +61,35 @@ public struct RepCalculatorView: View {
         
         if (inputReps > 0 && inputWeight > 0){
             if (inputReps <= 5){
-                let oneRepWeight: Float = Float(Float(inputWeight) / (1.0278 as Float - (0.0278 as Float * Float(inputReps))))
-                result.append((oneRepWeight, 1))
+                result.append((BrzyckiFormula(inputWeight: inputWeight, inputReps: inputReps), 1))
                 for i in 2...12 {
-                    result.append((Float(result[0].0 * (1.0278 - (0.0278 * Float(i)))), i))
+                    result.append(( BrzyckiFormulaInverse(oneRepMax: result[0].0, reps: i) ,i))
                 }
             }
             else {
-                let oneRepWeight: Float = Float(Float(inputWeight) * (1 + (0.025 as Float * Float(inputReps))))
-                result.append((oneRepWeight, 1))
+                result.append((OConnerFormula(inputWeight: inputWeight, inputReps: inputReps), 1))
                 for i in 2...12 {
-                    result.append((Float(result[0].0 / (1 + (0.025 * Float(i)))), i))
+                    result.append((OConnerFormulaInverse(oneRepMax: result[0].0, reps: i), i))
                 }
             }
         }
         
         return result;
+    }
+    
+    func BrzyckiFormula (inputWeight: Int, inputReps: Int) -> Float {
+        return Float(Float(inputWeight) / (1.0278 as Float - (0.0278 as Float * Float(inputReps))))
+    }
+    
+    func BrzyckiFormulaInverse (oneRepMax: Float, reps: Int) -> Float {
+        return Float(oneRepMax * (1.0278 - (0.0278 * Float(reps))))
+    }
+    
+    func OConnerFormula (inputWeight: Int, inputReps: Int) -> Float {
+        return Float(Float(inputWeight) * (1 + (0.025 as Float * Float(inputReps))))
+    }
+    
+    func OConnerFormulaInverse (oneRepMax: Float, reps: Int) -> Float {
+        return Float(oneRepMax) / (1 + (0.025 * Float(reps)))
     }
 }
