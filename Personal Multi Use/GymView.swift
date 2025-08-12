@@ -13,7 +13,7 @@ struct GymView: View {
             HStack{
                 Spacer()
                 DashboardCardComponent(title: "Rep Calculator", destination: RepCalculatorView())
-                DashboardCardComponent(title: "Workout Tracker", destination: RepCalculatorView())
+                DashboardCardComponent(title: "Workout Tracker", destination: WorkoutTrackerView())
             }
             HStack{
                 Spacer()
