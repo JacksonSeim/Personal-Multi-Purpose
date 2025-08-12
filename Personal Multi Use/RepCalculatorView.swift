@@ -56,21 +56,26 @@ public struct RepCalculatorView: View {
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
     }
-    func calculateRepMaxes(inputWeight: Int, inputReps: Int) -> [(Float, Int)] {
+    func calculateRepMaxes (inputWeight: Int, inputReps: Int) -> [(Float, Int)] {
         var result: [(Float, Int)] = []
         
         if (inputReps > 0 && inputWeight > 0){
             if (inputReps <= 5){
-                let oneRepWeight: Float = Float(Float(inputWeight) * (1 + (0.0333 as Float * Float(inputReps))))
+                let oneRepWeight: Float = Float(Float(inputWeight) / (1.0278 as Float - (0.0278 as Float * Float(inputReps))))
                 result.append((oneRepWeight, 1))
+                for i in 2...12 {
+                    result.append((Float(result[0].0 * (1.0278 - (0.0278 * Float(i)))), i))
+                }
             }
             else {
                 let oneRepWeight: Float = Float(Float(inputWeight) * (1 + (0.025 as Float * Float(inputReps))))
                 result.append((oneRepWeight, 1))
+                for i in 2...12 {
+                    result.append((Float(result[0].0 / (1 + (0.025 * Float(i)))), i))
+                }
             }
         }
         
         return result;
     }
-    func FillTableWithMaxes
 }
