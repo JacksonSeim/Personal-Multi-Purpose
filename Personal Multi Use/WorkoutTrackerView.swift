@@ -6,9 +6,13 @@
 //
 
 import SwiftUI
+import Foundation
 
 struct WorkoutTrackerView: View {
     var body: some View {
+        let CurrentDay: Date = Date()
+        let DayOfTheWeek = Calendar.current.component(.weekday, from: CurrentDay)
+        
         
     }
 }
