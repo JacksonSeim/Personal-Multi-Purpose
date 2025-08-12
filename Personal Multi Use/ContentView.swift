@@ -14,22 +14,8 @@ struct ContentView: View {
                 Spacer().frame(height: 50)
                 HStack{
                     Spacer()
-                    NavigationLink(destination: GymView()) {
-                        Text("Gym")
-                            .frame(width: 120, height: 120)
-                            .background(Color.gray)
-                            .foregroundColor(Color.white)
-                            .cornerRadius(25)
-                    }
-                    Spacer(minLength: 60)
-                    Button ("Other") {
-                        
-                    }
-                    .frame(width: 120, height: 120)
-                    .background(Color.gray)
-                    .foregroundColor(Color.white)
-                    .cornerRadius(25)
-                    Spacer()
+                    DashboardCardComponent(title: "Gym", destination: GymView())
+                    DashboardCardComponent(title: "Other", destination: GymView())
                 }
             }
             .padding()

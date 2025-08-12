@@ -9,6 +9,22 @@ import SwiftUI
 
 struct GymView: View {
     var body: some View {
-        Text("TEST")
+        NavigationView{
+            VStack{
+                HStack{
+                    Spacer()
+                    DashboardCardComponent(title: "Rep Calculator", destination: RepCalculatorView())
+                    DashboardCardComponent(title: "Workout Tracker", destination: RepCalculatorView())
+                }
+                HStack{
+                    Spacer()
+                    DashboardCardComponent(title: "Weight Conversion Calculator", destination: RepCalculatorView())
+                    DashboardCardComponent(title: "Other", destination: RepCalculatorView())
+                }
+                
+            }
+            .padding()
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        }
     }
 }
