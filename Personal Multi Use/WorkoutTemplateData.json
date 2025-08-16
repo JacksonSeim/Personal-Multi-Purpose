@@ -1,0 +1,203 @@
+[
+  {
+    "Title": "Push Day",
+    "DATE": "2025-08-12T17:00:00Z",
+    "Exercises": [
+      {
+        "Title": "Bench Press",
+        "Sets": [
+          { "Weight": 135, "Reps": 10, "WasSkipped": false },
+          { "Weight": 155, "Reps": 8, "WasSkipped": false },
+          { "Weight": 175, "Reps": 6, "WasSkipped": false }
+        ],
+        "WasSkipped": false
+      },
+      {
+        "Title": "Overhead Press",
+        "Sets": [
+          { "Weight": 95, "Reps": 10, "WasSkipped": false },
+          { "Weight": 105, "Reps": 8, "WasSkipped": false }
+        ],
+        "WasSkipped": false
+      },
+      {
+        "Title": "Dumbbell Flys",
+        "Sets": [
+          { "Weight": 30, "Reps": 12, "WasSkipped": false },
+          { "Weight": 35, "Reps": 10, "WasSkipped": false }
+        ],
+        "WasSkipped": false
+      }
+    ],
+    "Notes": "Solid chest pump today",
+    "WasSkipped": false
+  },
+  {
+    "Title": "Pull Day",
+    "DATE": "2025-08-14T17:00:00Z",
+    "Exercises": [
+      {
+        "Title": "Pull Ups",
+        "Sets": [
+          { "Weight": 0, "Reps": 12, "WasSkipped": false },
+          { "Weight": 0, "Reps": 10, "WasSkipped": false },
+          { "Weight": 0, "Reps": 8, "WasSkipped": false }
+        ],
+        "WasSkipped": false
+      },
+      {
+        "Title": "Barbell Row",
+        "Sets": [
+          { "Weight": 135, "Reps": 10, "WasSkipped": false },
+          { "Weight": 155, "Reps": 8, "WasSkipped": false },
+          { "Weight": 165, "Reps": 6, "WasSkipped": false }
+        ],
+        "WasSkipped": false
+      },
+      {
+        "Title": "Face Pulls",
+        "Sets": [
+          { "Weight": 50, "Reps": 15, "WasSkipped": false },
+          { "Weight": 55, "Reps": 12, "WasSkipped": false }
+        ],
+        "WasSkipped": false
+      }
+    ],
+    "Notes": "Grip felt strong",
+    "WasSkipped": false
+  },
+  {
+    "Title": "Leg Day",
+    "DATE": "2025-08-16T17:00:00Z",
+    "Exercises": [
+      {
+        "Title": "Back Squat",
+        "Sets": [
+          { "Weight": 185, "Reps": 10, "WasSkipped": false },
+          { "Weight": 205, "Reps": 8, "WasSkipped": false },
+          { "Weight": 225, "Reps": 6, "WasSkipped": false }
+        ],
+        "WasSkipped": false
+      },
+      {
+        "Title": "Romanian Deadlift",
+        "Sets": [
+          { "Weight": 135, "Reps": 12, "WasSkipped": false },
+          { "Weight": 155, "Reps": 10, "WasSkipped": false }
+        ],
+        "WasSkipped": false
+      },
+      {
+        "Title": "Leg Extensions",
+        "Sets": [
+          { "Weight": 100, "Reps": 15, "WasSkipped": false },
+          { "Weight": 110, "Reps": 12, "WasSkipped": false }
+        ],
+        "WasSkipped": false
+      }
+    ],
+    "Notes": "Quads fried, good depth on squats",
+    "WasSkipped": false
+  },
+  {
+      "Title": "Push Day",
+      "DATE": "2025-08-12T17:00:00Z",
+      "Exercises": [
+        {
+          "Title": "Bench Press",
+          "Sets": [
+            { "Weight": 135, "Reps": 10, "WasSkipped": false },
+            { "Weight": 155, "Reps": 8, "WasSkipped": false },
+            { "Weight": 175, "Reps": 6, "WasSkipped": false }
+          ],
+          "WasSkipped": false
+        },
+        {
+          "Title": "Overhead Press",
+          "Sets": [
+            { "Weight": 95, "Reps": 10, "WasSkipped": false },
+            { "Weight": 105, "Reps": 8, "WasSkipped": false }
+          ],
+          "WasSkipped": false
+        },
+        {
+          "Title": "Dumbbell Flys",
+          "Sets": [
+            { "Weight": 30, "Reps": 12, "WasSkipped": false },
+            { "Weight": 35, "Reps": 10, "WasSkipped": false }
+          ],
+          "WasSkipped": false
+        }
+      ],
+      "Notes": "Solid chest pump today",
+      "WasSkipped": false
+    },
+    {
+      "Title": "Pull Day",
+      "DATE": "2025-08-14T17:00:00Z",
+      "Exercises": [
+        {
+          "Title": "Pull Ups",
+          "Sets": [
+            { "Weight": 0, "Reps": 12, "WasSkipped": false },
+            { "Weight": 0, "Reps": 10, "WasSkipped": false },
+            { "Weight": 0, "Reps": 8, "WasSkipped": false }
+          ],
+          "WasSkipped": false
+        },
+        {
+          "Title": "Barbell Row",
+          "Sets": [
+            { "Weight": 135, "Reps": 10, "WasSkipped": false },
+            { "Weight": 155, "Reps": 8, "WasSkipped": false },
+            { "Weight": 165, "Reps": 6, "WasSkipped": false }
+          ],
+          "WasSkipped": false
+        },
+        {
+          "Title": "Face Pulls",
+          "Sets": [
+            { "Weight": 50, "Reps": 15, "WasSkipped": false },
+            { "Weight": 55, "Reps": 12, "WasSkipped": false }
+          ],
+          "WasSkipped": false
+        }
+      ],
+      "Notes": "Grip felt strong",
+      "WasSkipped": false
+    },
+    {
+      "Title": "Leg Day",
+      "DATE": "2025-08-16T17:00:00Z",
+      "Exercises": [
+        {
+          "Title": "Back Squat",
+          "Sets": [
+            { "Weight": 185, "Reps": 10, "WasSkipped": false },
+            { "Weight": 205, "Reps": 8, "WasSkipped": false },
+            { "Weight": 225, "Reps": 6, "WasSkipped": false }
+          ],
+          "WasSkipped": false
+        },
+        {
+          "Title": "Romanian Deadlift",
+          "Sets": [
+            { "Weight": 135, "Reps": 12, "WasSkipped": false },
+            { "Weight": 155, "Reps": 10, "WasSkipped": false }
+          ],
+          "WasSkipped": false
+        },
+        {
+          "Title": "Leg Extensions",
+          "Sets": [
+            { "Weight": 100, "Reps": 15, "WasSkipped": false },
+            { "Weight": 110, "Reps": 12, "WasSkipped": false }
+          ],
+          "WasSkipped": false
+        }
+      ],
+      "Notes": "Quads fried, good depth on squats",
+      "WasSkipped": false
+    }
+]
+

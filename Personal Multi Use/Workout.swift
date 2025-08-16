@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Workout {
+struct Workout: Codable {
     var Title: String
     var DATE: Date
     var Exercises: [Exercise]

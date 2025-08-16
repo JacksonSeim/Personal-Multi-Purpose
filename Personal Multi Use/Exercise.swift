@@ -5,7 +5,7 @@
 //  Created by Jackson Seim on 8/12/25.
 //
 
-struct Exercise {
+struct Exercise: Codable {
     var Title: String
     var Sets: [ExerciseSet]
     var SameWeightForAllSets: Bool {
